@@ -2,12 +2,11 @@
   height: 75vh;
   width: 75vh;
   display: grid;
-  /* grid-template-columns: repeat(16, 1fr);
-  grid-template-rows: repeat(16, 1fr); */
+  background-color: black;
+  border: 1px black solid;
+  grid-gap: 1px;
 }
 
 .box {
-  /* min-width: 50px;
-  min-height: 50px; */
-  border: solid 2px black;
+  background-color: white;
 }
