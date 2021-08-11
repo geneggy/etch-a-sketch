@@ -28,7 +28,10 @@ const resetGame = function () {
   let userPrompt = prompt(
     "How many squares per side would you like? Please input a number from 1 to 100"
   );
+
+  if (userPrompt === null) return;
   if (isNaN(userPrompt) || userPrompt > 100 || userPrompt < 1) {
+    alert("Invalid Input");
     resetGame();
   } else {
     gridEl.innerHTML = "";
