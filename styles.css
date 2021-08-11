@@ -1,0 +1,13 @@
+.grid {
+  height: 75vh;
+  width: 75vh;
+  display: grid;
+  /* grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr); */
+}
+
+.box {
+  /* min-width: 50px;
+  min-height: 50px; */
+  border: solid 2px black;
+}
